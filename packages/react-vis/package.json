@@ -1,9 +1,9 @@
 {
-  "name": "react-vis",
-  "version": "1.11.7",
+  "name": "@orcatech/react-vis",
+  "version": "1.11.8",
   "license": "MIT",
-  "author": "Visualization Team <visualization@uber.com>",
-  "description": "Data visualization library based on React and d3.",
+  "author": "Thomas Riley",
+  "description": "Data visualization library based on React and d3, forked from https://github.com/uber/react-vis.",
   "main": "dist",
   "module": "es",
   "jsnext:main": "es",
@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/uber-common/react-vis.git"
+    "url": "https://github.com/thomascriley/react-vis.git"
   },
   "bugs": {
-    "url": "https://github.com/uber-common/react-vis/issues/new",
+    "url": "https://github.com/thomascriley/react-vis/issues/new",
     "email": "visualization@uber.com"
   },
   "scripts": {
@@ -67,7 +67,7 @@
     "babel-plugin-module-resolver": "^4.0.0",
     "babelify": "^10.0.0",
     "browserify": "^14.3.0",
-    "canvas-prebuilt": "^1.6.11",
+    "canvas": "^2.7.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.5.0",
@@ -77,17 +77,15 @@
     "node-sass": "^4.9.3",
     "prettier": "^1.14.2",
     "react": "^16.0.0",
-    "react-addons-test-utils": ">=15.4.2",
     "react-dom": "^16.0.0",
     "react-test-renderer": "^16.13.1",
-    "react-vis-showcase": "^0.1.0",
     "stylelint": "^7.7.1",
     "stylelint-config-standard": "^15.0.1",
     "uglify-js": "^2.8.22"
   },
   "peerDependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "keywords": [
     "d3",
